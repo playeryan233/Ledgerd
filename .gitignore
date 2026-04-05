@@ -1,0 +1,15 @@
+# Build artifacts
+bin/
+*.exe
+*.out
+
+# Local Go tools
+*.test
+
+# IDE/editor
+.vscode/
+.idea/
+.DS_Store
+
+# Demo / temp data
+/data/demo_report.json

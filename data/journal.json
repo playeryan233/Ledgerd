@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": 1,
+    "date": "2026-04-01",
+    "description": "薪资入账",
+    "lines": [
+      {
+        "account": "Assets:Cash",
+        "debit": 5000,
+        "credit": 0
+      },
+      {
+        "account": "Income:Salary",
+        "debit": 0,
+        "credit": 5000
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "date": "2026-04-02",
+    "description": "午餐消费",
+    "lines": [
+      {
+        "account": "Expenses:Food",
+        "debit": 60,
+        "credit": 0
+      },
+      {
+        "account": "Assets:Cash",
+        "debit": 0,
+        "credit": 60
+      }
+    ]
+  }
+]
